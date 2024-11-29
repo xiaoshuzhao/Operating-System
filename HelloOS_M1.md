@@ -185,7 +185,15 @@ ls /dev/loop*
 ```bash
 The file /dev/loop0p1 does not exist and no size was specified.
 
-# 进行手动创建设备文件
+# 第一步：查询提取分区的主次设备号
+# 这里 259 0 根据lsblk验证绑定后的 “-loop0p1 259:0    0    31M  0 part” 的MAJ:MIN来定
+# 或者可以根据下面这个命令查询：
+# 格式： PARTITIONS=$(lsblk --raw --output "MAJ:MIN" --noheadings ${LOOPDEV} | tail -n +2)
+PARTITIONS=$(lsblk --raw --output "MAJ:MIN" --noheadings /dev/loop0 | tail -n +2)
+echo $PARTITIONS
+# 输出： 259:0
+
+# 第二步：进行手动创建设备文件
 mknod /dev/loop0p1 b 259 0
 ```
 
