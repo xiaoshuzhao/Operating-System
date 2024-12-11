@@ -26,11 +26,8 @@ void __attribute__((section(".entry"))) start(uint16_t bootDrive)
     log_warn("Main", "This is a warnibng msg!");
     log_err("Main", "This is an error msg!");
     log_crit("Main", "This is a critical msg!");
-    printf("Gorilla v0.1\n");
-    printf("This operating system is under construction.\n");
-    //i686_IRQ_RegisterHandler(0, timer);
-
-    //crash_me();
+    printf("Gorilla\n");
+    printf("This operating system is ready!\n");
 
 end:
     for (;;);
