@@ -4,6 +4,12 @@
 
 The operating system is designed as a foundational project to learn and demonstrate the principles of OS development. Its primary purpose is to provide basic hardware abstraction, input/output management, and a structured environment to build more advanced OS features in the future. It serves as a starting point for features like multitasking, memory management, and peripheral interaction while enabling debugging and experimentation.
 
+### Related Technology
+
+Gcc, Binutils, qemu, nasm, mtools, gmp, mpfr, mpc
+
+[Mac M1 Environment configuration guide](./GorillaOS/README.md)
+
 ### **Implemented Functions**
 
 1. **Bootloader**
