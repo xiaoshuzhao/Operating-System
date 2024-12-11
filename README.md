@@ -32,11 +32,11 @@ Gcc, Binutils, qemu, nasm, mtools, gmp, mpfr, mpc
 
 ### **Total Number of Lines of Code**
 
-Based on the provided code snippets across all files, including comments and blank lines, the approximate total number of lines is **3,200 lines**. This includes:
+Based on the provided code snippets across all files, including comments and blank lines, the approximate total number of lines is **3500 lines**. This includes:
 
-- **Bootloader (assembly and supporting code)**: ~1,200 lines
-- **Kernel (C files)**: ~1,500 lines
-- **Supporting Files (e.g., FAT, HAL, memory)**: ~500 lines
+- **assembly language**: ~1000 lines
+- **C files**: ~2300 lines
+- **Supporting Files (e.g., Makefile, Shell Script)**: ~200 lines
 
 
 ### Screenshot 
