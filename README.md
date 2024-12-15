@@ -9,7 +9,6 @@ The operating system is designed as a foundational project to learn and demonstr
 Gcc, Binutils, qemu, nasm, mtools, gmp, mpfr, mpc
 
 [Mac M1 Environment configuration guide](./gorillaOS/README.md)
-[Mac M1](https://github.com/xiaoshuzhao/Operating-System/blob/main/gorillaOS/README.md)
 
 ### **Implemented Functions**
 
